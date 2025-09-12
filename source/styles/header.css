@@ -55,7 +55,7 @@
 .header-login {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
 }
 
 /* Ícone perfil: remove margem e define tamanho */
