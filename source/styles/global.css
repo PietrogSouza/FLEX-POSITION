@@ -20,25 +20,32 @@
 }
 
 html{
-    a
+    
 }
 
 .content-nosso-time, .content-cursos, .content-faq, .content-contato{
-    a
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+
 }
 
 .content-nosso-time{
-    a
+    background-color: aqua;
 }
 
 .content-cursos{
-    a
+    background-color: aquamarine;
 }
 
 .content-faq{
-    a
+    background-color: deepskyblue;
 }
 
 .content-contato{
-    a
+    background-color: cornflowerblue;
 }
