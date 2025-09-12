@@ -1,0 +1,30 @@
+.speaker-card {
+    background-color: white;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 70px;
+    
+    
+}
+
+.speaker-card:hover {
+
+}
+
+.speaker-card img {
+    width: 100%;
+
+}
+
+.speaker-card figcaption {
+
+}
+
+.speaker-card h3 {
+    
+ 
+}
+
+.speaker-card p {
+
+}

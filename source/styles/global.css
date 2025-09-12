@@ -36,6 +36,9 @@ html{
 
 .content-nosso-time{
     background-color: aqua;
+    justify-content: space-evenly;
+
+
 }
 
 .content-cursos{
