@@ -7,7 +7,7 @@
 
     /* altura do header */
     height: 8vh;
-    background-color: midnightblue;
+    background-color: rgb(192, 242, 255);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.101);
 
     /* Flex para alinhar os itens horizontalmente */
@@ -41,14 +41,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0,0.1);
     /* evita seleção do texto no clique */
     user-select: none;
-    color: white;
+    color: black;
     box-shadow: 0 4px 8px rgba(0,123,255, 0.4);
 }
 
 /* Efeito hover nos itens do menu */
 .header-menu li:hover {
-    background-color: darkblue;
-    color: aqua;
+    background-color: aqua;
+    color: black;
 }
 
 /* Área de login: ícone e busca alinhados */
@@ -59,7 +59,7 @@
 }
 
 /* Ícone perfil: remove margem e define tamanho */
-.header-icon figure {
+.header-icon {
     margin: 0;
     width: 40px;
     height: 40px;
