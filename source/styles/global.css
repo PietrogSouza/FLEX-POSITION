@@ -53,3 +53,24 @@ html{
 .content-contato{
     background-color: deepskyblue;
 }
+
+.whatsapp-button {
+    position: fixed;
+    /* distância do rodapé */
+    bottom: 100px;
+    /* distância da lateral */
+    right: 96px;
+    filter: drop-shadow(0 0 4px white);
+    z-index: 1000;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.whatsapp-button img {
+    width: 40px;
+
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+}
