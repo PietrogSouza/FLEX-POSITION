@@ -1,35 +1,68 @@
-/* Estilos para o footer */
+/* Estilos para o footer  */
 
-.footer-content{
+/* Container principal  */
+.footer-content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: azure;
+    box-shadow: 0 2px 5px rgba(0, 0, , alpha);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+/* Container da esquerda  */
+.footer-address {
+    width: 100%;
+
+    
 
 }
 
-/* Container da esquerda */
-.footer-address{
+/* Título do container  */
+.footer-address__title {
+font-weight: bold;
+font-size: 20px;
+}
+
+/* Container do meio  */
+.footer-info {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-info img{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    
+    
 
 }
 
-/* Título do container */
-.footer-address__title{
+/* Container da direita  */
+.footer-social {
+    display: flex;
+    
+}
+
+/* Container da direita (filho footer-social)  */
+.footer-social ul {
 
 }
 
-.footer_info{
+/* Container da direita(filho da ul) */
+.footer-social img {
 
 }
 
-.footer-social{
-
-}
-
-.footer-social ul{
-
-}
-
-.footer-social img{
-
-}
-
-.effect:hover{
+/* Classe responsável por aplicar o efeito em todos os ícones das redes sociais */
+.effect:hover {
 
 }
