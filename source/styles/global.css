@@ -35,20 +35,21 @@ html{
 }
 
 .content-nosso-time{
-    background-color: aqua;
+    background-color: rgba(0, 47, 255, 0.779);
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
 
 }
 
 .content-cursos{
-    background-color: aquamarine;
-}
-
-.content-faq{
     background-color: deepskyblue;
 }
 
+.content-faq{
+    background-color: rgba(0, 47, 255, 0.779);
+}
+
 .content-contato{
-    background-color: cornflowerblue;
+    background-color: deepskyblue;
 }
